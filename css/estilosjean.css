@@ -1,0 +1,157 @@
+*{
+    max-width: 1000px;
+    margin: auto;
+    align-content: center; 
+   
+    
+}
+.logo{
+    display:inline-block
+    
+}
+body{
+    
+}
+.portada{
+    background-color: turquoise;
+    height: 150px;
+    
+}
+.imgheader{
+    width: 800px;
+    margin: 0 0 0 250px;
+}
+nav{
+    background-color: #91d5cf;
+    color: white;
+    text-align: center;
+       
+}
+a{
+    color: white;
+    margin: 10px;
+    
+    text-decoration: none;
+    float: right;
+    
+}
+p{
+   color: grey;
+}
+
+.rescate{
+    
+    text-align: right;
+ display: inline-block;
+    padding: 40px;
+    height: 500px;
+    width: 48%;
+    
+}
+h5{
+    color: gray;
+}
+hr{
+    width: 60px;
+}
+
+.crowdfunding{
+  
+ display: inline-block;
+    padding: 40px;
+    height: 500px;
+    width: 48%;
+ 
+}
+button{
+    border: solid 2px;
+    color: black;
+    width: 100px;
+    padding: 5px;
+    font-size: 16px;
+    
+}
+#imgcrow{
+    width: 250px;
+}
+.footerheader{
+    color: white;  
+   
+    margin-top: 150px;
+    width: 80%;
+    
+}span{
+    display: inline-block;
+    width: 20%;
+}
+    }
+imgconstruccion{
+    width: 1000px;
+}
+#footer2{
+    height: 60px;
+    text-align: center;
+    background-color: dimgray;
+    color: black;
+}
+#footer2 p{
+    color: black;
+}
+.inline{
+   
+    width: 100%;
+}
+
+body{
+    background: white;
+    text-align: center;
+    color: white;
+    max-width: 1000px;
+}
+
+.rescatados{
+    background: turquoise;
+    display: flex;
+    padding: 10px;    
+}
+.portada{
+    font-size: 100px;
+    font-style: italic;
+    /* display: flex; */
+    }
+p{
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    
+}
+.dog{
+    font-size: 80px;
+    
+}
+.rescatados {
+    max-width: 100%  ;
+    height: auto;
+    padding: 10px;
+    background: turquoise;
+    margin: 0px;
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.matapaco{
+    width: 96%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+img {
+    width: 100%;
+  }
+  @media (min-width: 40em) {
+    main {
+      width: 80%;
+    }
+  }

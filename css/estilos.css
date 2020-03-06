@@ -1,0 +1,135 @@
+body{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    min-width: 200px;
+}
+
+/* comienzo del header  */
+
+.main header{
+    display: flex;
+    flex-direction: column;
+    background-color: lightseagreen;
+}
+
+.logo {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.233);
+}
+.logo img{
+    width:100%;
+    max-width: 329px;
+}
+
+nav{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.menu{
+    border-bottom: thin solid rgba(255, 255, 255, 0.486);
+    text-align: center;
+    padding: 10px;
+}
+
+.main header a{
+    color: white;
+    text-decoration: none;
+}
+
+.fotoprincipal {
+    width: 100%;
+    padding: 10px 0;
+    max-height: 350px;
+}
+.redes{text-align: center;padding-bottom: 10px;}
+.redes img{width: 40px;padding: 0 5px;}
+
+/* fin del header  */
+
+/* inicio contenidos */
+
+.contenidos{
+    display: flex;
+    flex-flow: column  wrap;
+    padding: 20px;
+}
+
+.contenidos img{width: 200px;}
+.contenidos p{font-size: xx-small;margin: 20px 0;}
+.contenidos h5{color: gray;padding-bottom: 15px;}
+.contenidos hr{width: 50px;}
+
+.rescate{
+    display: grid;
+    justify-items: right;
+    text-align: right;
+}
+
+.crowdfunding{padding-top: 30px;
+}
+button{
+    padding: 10px;
+    font-weight: bold;
+}
+button a{
+    color: black;
+    text-decoration: none;
+}
+
+.galeria{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: lightseagreen;
+    justify-content: center;
+}
+
+.gal {
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.col1¡¡,.col3{width: auto;}
+.col2 {width: auto;}
+
+.gal img{width: 100%;}
+/* fin contenidos */
+
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: lightslategray;
+}
+
+#totop a{
+    color: white;
+    text-decoration: none
+}
+
+@media (min-width:401px) {
+    .main{
+        width: 90%;
+        max-width: 800px;
+    }
+    nav{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .contenidos p{font-size: small;}
+
+}
+
